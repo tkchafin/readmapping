@@ -63,6 +63,7 @@ workflow ALIGN_PACBIO {
 
 
     emit:
+    bam      = SAMTOOLS_SORT.out.bam         // channel: [ val(meta), /path/to/bam ]
     cram     = CONVERT_STATS.out.cram        // channel: [ val(meta), /path/to/cram ]
     crai     = CONVERT_STATS.out.crai        // channel: [ val(meta), /path/to/crai ]
     stats    = CONVERT_STATS.out.stats       // channel: [ val(meta), /path/to/stats ]
