@@ -18,7 +18,7 @@ On merge to `dev` and `main` branch, automated continuous integration tests run 
 
 ## Pipeline summary
 
-![Pipeline workflow image coming soon](https://raw.githubusercontent.com/sanger-tol/readmapping/1.1.0/docs/images/sanger-tol-readmapping-workflow.png)
+<img src="https://raw.githubusercontent.com/sanger-tol/readmapping/976525ad7b5327607a049aa85bbca36a48c6ba48/docs/images/sanger-tol-readmapping_workflow.png" height="700">
 
 ## Quick Start
 
